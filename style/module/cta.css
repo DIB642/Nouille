@@ -1,0 +1,14 @@
+.cta {
+    background-color: var(--red-highlight);
+    padding: 4.5rem 0rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 2rem;
+}
+.cta__button {
+    display: inline-block;
+    background-color: black;
+    padding: 0.5rem 2rem;
+    margin-top: 1rem;
+    color: white;
+}

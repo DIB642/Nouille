@@ -1,0 +1,35 @@
+.address__carousel {
+    display: flex;
+    gap: 7.18rem;
+    justify-content: center;
+    margin-bottom: 4.5rem;
+    /* margin: 7.132rem; */
+}
+.expertise__text{
+    padding: 0rem 8.813rem;
+    margin-bottom: 4rem;
+    /* text-align: justify; */
+}
+.reseaux__images {
+    display: grid ;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 0rem 17.438rem;
+    margin-top: 2.25rem;
+    margin-bottom: 4.5rem;
+    gap: 4.188rem;
+} 
+.entete{
+    display: flex;
+    justify-content: center;
+    /* padding: 11.75rem 18.438rem; */
+    align-items: center;
+    gap: 2rem;
+}
+.entete div a{ 
+    display: inline-block;
+    background-color: black;
+    margin-top: 1rem;
+    color: white;
+    padding: 1rem;
+}
