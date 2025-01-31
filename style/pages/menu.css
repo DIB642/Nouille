@@ -1,0 +1,28 @@
+.titlemenu{
+    margin-left: 9.43rem;
+}
+.logomenu {
+    width: 8.092rem;
+    height: 8.096rem;
+    /* margin: 2rem  0rem 0rem 0rem; */
+}
+.menucontain{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    background-color: white;
+    margin: 2rem 4.5rem 10rem 4.5rem;
+    padding: 4.161rem 0rem 4.509rem 0rem;
+}
+.menucontain p{
+    line-height: 2rem;
+}
+
+.menucontain div {
+    margin-bottom: 2rem;
+}
+.menucontain h2{
+    margin-top: 4rem;
+}
