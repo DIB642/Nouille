@@ -1,0 +1,19 @@
+.cta {
+    background-color: var(--red-highlight);
+    padding: 4.5rem 0rem;
+    text-align: center;
+    color: white;
+    /* margin-bottom: 2rem; */
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.cta__button {
+    display: inline-block;
+    background-color: black;
+    padding: 0.5rem 2rem;
+    text-align: center;
+    margin-top: 1rem;
+    color: white;
+}
