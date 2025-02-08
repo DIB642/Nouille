@@ -1,0 +1,31 @@
+.addressinfos {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 10.5rem;
+    margin-top: 6rem;
+}
+.addressinfoscontain{
+    display: flex;
+    gap: 2.5rem;
+}
+.cta {
+    margin-top: 4rem;
+}
+@media  screen and (max-width :772px) {
+    .addressinfoscontain{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        }
+    .cta {
+            margin-top: 1.5rem;
+        }
+    .addressinfos {
+            margin-bottom: 5rem;
+            margin-top: 3.5rem;
+            gap: 1rem;
+        }
+}

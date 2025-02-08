@@ -1,0 +1,57 @@
+
+.titlemenu{
+    margin-left: 9.43rem;
+    margin-top: 2.25rem;
+}
+.logomenu {
+    width: 8.092rem;
+    height: 8.096rem;
+    /* margin: 2rem  0rem 0rem 0rem; */
+}
+.menucontain{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    background-color: white;
+    margin: 2rem 10rem 4.5rem 9.43rem;
+    padding: 4.161rem 0rem 4.509rem 0rem;
+}
+.menucontain p{
+    line-height: 2rem;
+}
+
+.menucontain div {
+    margin-bottom: 2rem;
+}
+.menucontain h2{
+    margin-top: 3.6rem;
+}
+@media screen and (max-width: 772px ) {
+    .titlemenu{
+        text-align: center;
+        margin-left: 0rem;
+    }
+    .titlemenu p{
+        display: none;
+    }
+    .logomenu {
+        width: 4rem;
+        height: 4rem;
+    }
+    .menucontain{
+        margin: 0.7rem 1.9rem 1.5rem 1.9rem;
+        padding: 2rem 0rem 0rem 0rem;
+    }
+    .menucontain p{
+        line-height: 1.5rem;
+    }
+    
+    .menucontain div {
+        margin-bottom: 1.6rem;
+    }
+    .menucontain h2{
+        margin-top: 2rem;
+    }
+}

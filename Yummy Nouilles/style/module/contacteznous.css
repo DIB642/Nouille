@@ -1,0 +1,9 @@
+.contactnous{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.contactnous__text {
+    text-align: center;
+    padding: 0 2rem;
+}
