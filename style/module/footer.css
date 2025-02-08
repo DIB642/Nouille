@@ -9,7 +9,16 @@ footer div a {
 }
 footer div {
     display: flex;
-    flex-direction: row;
     justify-content: flex-end;
     gap: 3.5rem;
+}
+@media screen and (max-width: 772px ) {
+    footer div {
+        display: flex;
+        justify-content: center;
+    }
+    footer {
+        padding: 6.75rem 0rem ;
+    }
+  
 }

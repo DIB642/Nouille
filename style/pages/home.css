@@ -1,42 +1,38 @@
+.address {
+    margin: 10.18rem 0rem 4.5rem 0rem;
+}
 .address__carousel {
     display: flex;
     gap: 7.18rem;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
     margin-bottom: 4.5rem;
     /* margin: 7.132rem; */
+}
+.expertise {
+    margin: 2.25rem 0 4rem 0;
 }
 .expertise__text{
     padding: 0rem 8.813rem;
     margin-bottom: 4rem;
-    /* text-align: justify; */
 }
 .reseaux__images {
     display: grid ;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    padding: 0rem 17.438rem;
+    /* padding: 0rem 17.438rem; */
     margin-top: 2.25rem;
     margin-bottom: 4.5rem;
     gap: 4.188rem;
-} 
+    place-items: center;
+}
 .entete{
     display: flex;
     justify-content: center;
-    /* padding: 11.75rem 18.438rem; */
-    align-items: center;
     gap: 2rem;
 }
-@media screen and (max-width: 992px) {
-    .entete{
-        flex-direction: column;  
-}
-    .reseaux__images {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-
+.entete div p{ 
+    font-weight: bold;
 }
 .entete div a{ 
     display: inline-block;
@@ -44,4 +40,42 @@
     margin-top: 1rem;
     color: white;
     padding: 1rem;
+}
+@media screen and (max-width : 772px){
+    .entete{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+    }
+    .entete div img {
+        margin: 2.5rem 0 3.5rem 0;
+        width: 14.5rem;
+        height: 14.5rem;
+    }
+    a, p{
+        text-align: center;
+    }
+    .address__carousel {
+        gap: 2.4rem;}
+    .address {
+        margin-top: 0;}
+    .reseaux__images {
+        display: grid ;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        margin-bottom: 2.5rem;
+        gap: 2rem;
+        place-items: center;
+    }
+    .expertise__text{
+        padding: 0rem 1rem;
+    }
+}
+@media screen and (max-width : 420px){
+    .entete div img {
+        margin: 2.5rem 0 2.5rem 0;
+        width: 11.5rem;
+        height: 11.5rem;
+    }
 }
